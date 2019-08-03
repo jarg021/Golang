@@ -10,7 +10,9 @@ import (
 )
 
 func main()  {
-	card:= []string{}
+	card:= []string{newCard(),"As de diamantes"}
+	card= append(card,"seis de espadas")
+	fmt.Println(card)
 } 
 
 func newCard()string  {
