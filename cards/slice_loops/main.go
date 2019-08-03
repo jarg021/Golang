@@ -10,7 +10,7 @@ import (
 )
 
 func main()  {
-	card:= []string{newCard(),"As de diamantes"}
+	card:= mazo{newCard(),"As de diamantes"}
 	card= append(card,"seis de espadas")
 	for i, carta := range card{
 		fmt.Println(i,"-->", carta)
